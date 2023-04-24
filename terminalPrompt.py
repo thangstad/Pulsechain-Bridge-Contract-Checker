@@ -50,7 +50,7 @@ def main():
         print("3. Get mediator contract on the other side")
         print("4. Exit")
 
-        choice = int(input("Enter your choice (1, 2, 3, 4, or 5): "))
+        choice = int(input("Enter your choice (1, 2, 3, or 4): "))
 
         if choice == 1:
             token_address = input("Enter the token address: ")
